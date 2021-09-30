@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load i18n static %}
+{% load crispy_forms_tags %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "css/registration/login.css" %}">
+{% endblock %}
+
+{% block content %}
+
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+{% if user.is_authenticated %}
+<p>Your account doesn't have access to this page. To proceed,
+  please login with an account that has access.</p>
+{% endif %}
+
+<div id="content">
+  <form method="post" action="{% url 'login' %}" class="login">
+    {% csrf_token %}
+    {{ form|crispy }}
+  {% if password_reset_url %}
+  <div class="password-reset-link">
+    <a href="{{ password_reset_url }}">{% trans 'Forgotten your password or username?' %}</a>
+  </div>
+  {% endif %}
+  <div class="submit-row text-right">
+    <label>&nbsp;</label><input type="submit" class="btn btn-primary" value="{% trans 'Log in' %}">
+  </div>
+  <input type="hidden" name="next" value="{{ next }}">
+  </form>
+</div>
+
+{# Assumes you setup the password_reset view in your URLconf #}
+{% if password_reset_url %}
+<p><a href="{% url 'password_reset' %}">Lost password?</a></p>
+{% endif %}
+
+{% endblock %}

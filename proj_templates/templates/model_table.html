@@ -1,0 +1,22 @@
+<thead>
+  <tr>
+    {% for h in table_data.header %}
+    <th {{ h.class }} scope="col">{{ h.value }}</th>
+    {% endfor %}
+  </tr>
+</thead>
+<tbody>
+  {% for row in table_data.rows %}
+  <tr>
+    {% for col in row %}
+    <td {{ col.class }}>
+      {{ col.value }}
+    </td>
+    {% endfor %}
+  </tr>
+  {% empty %}
+  <td colspan="{{ table_data.header.length }}">
+    対象のデータがありません
+  </td>
+  {% endfor %}
+</tbody>

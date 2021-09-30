@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-29 21:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Account Inactive"
+msgstr ""
+
+msgid "This account is inactive."
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "E-mail Addresses"
+msgstr ""
+
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+
+msgid "Unverified"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Make Primary"
+msgstr ""
+
+msgid "Re-send Verification"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+msgid "Add E-mail Address"
+msgstr ""
+
+msgid "Add E-mail"
+msgstr ""
+
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because user %(user_display)s has given yours "
+"as an e-mail address to connect their account.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s\n"
+msgstr ""
+
+#, python-format
+msgid ""
+"Thank you from %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+msgid "Please Confirm Your E-mail Address"
+msgstr ""
+
+#, python-format
+msgid ""
+"Hello from %(site_name)s!\n"
+"\n"
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+msgid "Password Reset E-mail"
+msgstr ""
+
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+msgid "Sign In"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"    of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+"\">sign up</a>\n"
+"    for a %(site_name)s account and sign in below:"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"    <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+
+msgid "Forgot Password?"
+msgstr ""
+
+msgid "Sign Out"
+msgstr ""
+
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr ""
+
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr ""
+
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr ""
+
+msgid "You have signed out."
+msgstr ""
+
+msgid "Password successfully changed."
+msgstr ""
+
+msgid "Password successfully set."
+msgstr ""
+
+msgid "Primary e-mail address set."
+msgstr ""
+
+msgid "Your primary e-mail address must be verified."
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Password Reset"
+msgstr ""
+
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+msgid "Reset My Password"
+msgstr ""
+
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+msgid "Bad Token"
+msgstr ""
+
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+msgid "change password"
+msgstr ""
+
+msgid "Your password is now changed."
+msgstr ""
+
+msgid "Set Password"
+msgstr ""
+
+msgid "Signup"
+msgstr ""
+
+msgid "Sign Up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+msgid "Sign Up Closed"
+msgstr ""
+
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr ""
+
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+msgid ""
+"We have sent an e-mail to you for verification. Follow the link provided to "
+"finalize the signup process. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+msgid ""
+"This part of the site requires us to verify that\n"
+"    you are who you claim to be. For this purpose, we require that you\n"
+"    verify ownership of your e-mail address. "
+msgstr ""
+
+msgid ""
+"We have sent an e-mail to you for\n"
+"    verification. Please click on the link inside this e-mail. Please\n"
+"    contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+msgid "Brand Name"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Forgotten your password or username?"
+msgstr ""
+
+msgid "Log in"
+msgstr ""
